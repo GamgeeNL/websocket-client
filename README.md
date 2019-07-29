@@ -23,9 +23,11 @@ Once you have it installed.
 `iex -S mix`
 
 You need to open the websocket before attempting to send messages.
+
 `iex> WebsocketClient.Application.open_ws`
 
 Send messages and the replies come back automatically.
+
 `iex> WebsocketClient.Application.send_message("My name is Jonas!")`
 
 `:ok`
@@ -34,6 +36,7 @@ Send messages and the replies come back automatically.
 `15:23:02.790 [info]  Message received "My name is Jonas!"`
 
 Use set_from if you want to use it remotely...
+
 `iex> WebsocketClient.Application.set_from`
 
 `15:26:41.332 [info]  Sending... "I love you"`
