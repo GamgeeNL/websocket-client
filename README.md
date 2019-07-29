@@ -1,6 +1,6 @@
 # WebsocketClient
 
-This is a demonstration of how to use gun (Erlang) with a GenServer wrapper in Elixir.
+This is a demonstration of how to use [gun](https://ninenines.eu/docs/en/gun/1.3/guide/) (Erlang) with a GenServer wrapper in Elixir.
 
 Why would you want to do this? I suspect for testing your websocket capable server.
 
