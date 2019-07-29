@@ -4,6 +4,8 @@ This is a demonstration of how to use gun (Erlang) with a GenServer wrapper in E
 
 Why would you want to do this? I suspect for testing your websocket capable server.
 
+If you don't know why you would want to then this probably isn't for you.
+
 ## Installation
 You need to have [Elixir and Erlang](https://elixir-lang.org/install.html) installed.
 
@@ -19,13 +21,18 @@ Once you have it installed.
 `iex -S mix`
 
 `iex> WebsocketClient.Application.open_ws`
+
 `iex> WebsocketClient.Application.send_message("My name is Jonas!")`
 `:ok`
+
 `iex> `
 `15:23:02.790 [info]  Message received "My name is Jonas!"`
 
+Use set_from if you want to use it remotely...
 `iex> WebsocketClient.Application.set_from`
+
 `15:26:41.332 [info]  Sending... "I love you"`
+
 `15:26:41.449 [info]  I love you more!`
 
 I promise this makes sense if you look at the code. :)
