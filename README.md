@@ -23,6 +23,7 @@ Once you have it installed.
 `iex> WebsocketClient.Application.open_ws`
 
 `iex> WebsocketClient.Application.send_message("My name is Jonas!")`
+
 `:ok`
 
 `iex> `
