@@ -6,6 +6,8 @@ Why would you want to do this? I suspect for testing your websocket capable serv
 
 If you don't know why you would want to then this probably isn't for you.
 
+As is it is just pinging echo.websocket.org for demonstration purposes. You'll have to point it somewhere else to do something smarter with it.
+
 ## Installation
 You need to have [Elixir and Erlang](https://elixir-lang.org/install.html) installed.
 

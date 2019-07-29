@@ -18,7 +18,6 @@ defmodule WebsocketClient.Application do
   This opens a websocket
   """
   def open_ws do
-    Logger.info "Open ws yo"
     WebsocketClient.Server.send_sync({:open_ws})
   end
 
